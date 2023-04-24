@@ -1,0 +1,58 @@
+    1  sudo hotnamectl set-hostname rocky00
+    2  sudo hostnamectl set-hostname rocky00
+    3  sudo reboot
+    4  ip a s
+    5  sudo poweroff
+    6  sudo dnf update -y
+    7  sudo reboot
+    8  sudo dnf update -y
+    9  sudo dnf install curl wget lynx unzip tar -y
+   10  sdo poweroff
+   11  sudo poweroff
+   12  sudo nmtui
+   13  clear
+   14  nmcli
+   15  curl www.google.com
+   16  sudo reboot
+   17  curl www.google.com
+   18  clear
+   19  sudo dnf update -y $$ sudo dnf install git -y
+   20  sudo dnf update -y && sudo dnf install git -y
+   21  ls
+   22  sudo cp hosts /etc/hosts
+   23  cat /etc/hosts
+   24  clear
+   25  ssh-keygen -t rsa -b 4096 -C "iqbalsound@yahoo.com"
+   26  scp .ssh/id_rsa.pub iqbal@gateway:/home/iqbal/git_id_rsa.pub
+   27  mkdir gitRepo
+   28  cd gitRepo
+   29  ls
+   30  ssh -T git@github.com
+   31  mkdir CCGDSCTESTREPO
+   32  cd CCGDSCTESTREPO
+   33  ls
+   34  git init .
+   35  git remote add origin git@github.com:iqbalsound/CCGDSCTESTREPO.git
+   36  branch -M main
+   37  git branch -M main
+   38  touch test.txt
+   39  git commit
+   40  git config --global user.email "iqbalsound@yahoo.com"
+   41  git config --global user.name "Iqbal Uddin Khan"
+   42  git commit
+   43  git add .
+   44  git commit
+   45  git push -u origin main
+   46  echo "Testing New Repo" >>test.txt
+   47  git status
+   48  git commit
+   49  git push -u origin main
+   50  cat text.txt
+   51  ls
+   52  cat test.txt
+   53  git add. 
+   54  git add . 
+   55  git status
+   56  git commit
+   57  git push -u origin main
+   58  history >> history1.txt
